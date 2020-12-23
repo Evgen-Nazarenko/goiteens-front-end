@@ -195,13 +195,81 @@ a {
   margin-bottom: 100px;
 }
 
-.footer-text{
-  font-family: "Myriad ";
-  color: rgb(51, 51, 51);
-  line-height: 1.2;
-  margin-left: 350px;
-}
+
 
 .color-text {
   color: #f38181;
+}
+
+.footer{
+    padding-bottom: 87px;
+    display: flex;
+    margin-left: 350px;
+}
+
+.f-text{
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-element{
+    display: flex;
+   margin-left: 522px;
+    
+}
+
+.btn {
+    font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: rgb(149,225,211);
+  width: 152px;
+  height: 40px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight:bold;
+}
+
+
+
+
+.u-form{
+    display: block;
+    margin: 0 auto;
+   
+}
+
+
+.u-form input{
+    display: block;
+    width: 229px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    transition: all .2s ease-in;
+    
+}
+
+.u-form input::placeholder{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(204, 204, 204);
+  padding-top:14px ;
+  padding: 7px;
+ 
+}
+
+.u-form input:focus{
+    background-color: gainsboro;
+    box-shadow: 0px 1px 8px 0px rgb(153, 153, 153);
 }
