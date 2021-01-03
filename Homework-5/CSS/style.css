@@ -164,9 +164,20 @@ padding: 0 15px;
   margin-bottom: 100px;
 }
 
-.photo {
+.photo:hover{
+  position: absolute;
+  left: 360px;
+  top: 980px;
+  width: 380px;
+  height: 470px;
+  z-index: 18;
   display: flex;
   justify-content: center;
+}
+
+.Photo-Font:hover {
+  
+
 }
 
 .photo-item:not(:last-child) {
