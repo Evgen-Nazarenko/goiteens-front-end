@@ -1,3 +1,6 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +9,8 @@
 
 body {
     font-size: 14px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -35,9 +40,10 @@ a {
 }
 
 .logo {font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
     color: #95e1d3;
     font-size: 30px;
-    font-weight: bold;
+    ;
     line-height: 1.5;
 }
 
@@ -55,9 +61,12 @@ a {
     color: #95e1d3;
     font-size: 14px;
     line-height: 1.714;
-    font-family: "Montserrat";
-      
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
 }
+
+
+
 
 .menu-item__link::after {
     content: "";
@@ -87,21 +96,22 @@ a {
 }
 
 .title {
-    font-family: "Monserrat";
+    font-family: "Monserrat", sans-serif;
     font-size: 30px;
     color: rgb(51, 51, 51);
     line-height: 1.2;
     text-align: center;
     font-weight: bold;
+    
 }
 
 .title::after {
     content: "";
     display: block;
     background-color: rgb(243, 129, 129);
-    width: 50px;
+    width: 60px;
     height: 3px;
-    margin: 42px auto;
+    margin: 42px auto ;
     margin-bottom: 66px;
 }
 
@@ -126,7 +136,8 @@ a {
 
 .servise-title {
     font-size: 14px;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: left;
@@ -169,16 +180,6 @@ a {
     margin-bottom: 100px;
 }
 
-
-.Meet_our_team::after {
-  content: "";
-  display: block;
-  background-color: rgb(243, 129, 129);
-  width: 60px;
-  height: 3px;
-  margin: 0 auto;
-  margin-top: 32px;
-}
 
 .photo {
     position: relative;
@@ -244,7 +245,7 @@ a {
 .worker-name {
   margin-top: 10px;
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: rgb(51, 51, 51);
   text-transform: uppercase;
   line-height: 1.2;
@@ -254,13 +255,16 @@ a {
 .worker-prof {
   margin-top: 4px;
   font-size: 15px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
   color: rgb(153, 153, 153);
   line-height: 1.6;
   text-align: center;
 }
 
 .photo .img-container {
+  height: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
@@ -361,6 +365,10 @@ a {
     color: #f38181;
 }
 
+.copy {
+  margin-bottom: 24px;
+}
+
 .btn-load {
     font-size: 14px;
     border: none;
@@ -385,6 +393,7 @@ a {
 
 .u-form input {
     padding-right: 10px;
+    margin-bottom: 12px;
     display: block;
     width: 229px;
     height: 40px;
